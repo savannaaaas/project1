@@ -19,8 +19,8 @@ function App() {
   return (
     <>
       <input ref={inputRef} onKeyDown={handleText} />
-      <button onClick={handleFocus}>Focus</button>
       <List text={text} setText={setText} />
+      <button onClick={handleFocus}>Focus</button>
     </>
   );
 }
